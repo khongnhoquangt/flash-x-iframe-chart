@@ -47,8 +47,8 @@ function TradePage() {
       foregroundColor: "#089981",
     },
     classNames: {
-      root: "w-screen h-screen",
-      content: "w-screen h-screen",
+      root: "w-full h-full",
+      content: "w-full h-full",
     },
   });
 
