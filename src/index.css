@@ -63,3 +63,7 @@ body {
 .font-semibold { font-weight: 600; }
 .mb-2 { margin-bottom: 0.5rem; }
 .mb-4 { margin-bottom: 1rem; }
+
+.oui-relative {
+    position: static !important;
+}

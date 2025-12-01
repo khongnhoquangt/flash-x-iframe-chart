@@ -24,7 +24,7 @@ const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <OrderlyConfigProvider brokerId="FLASH_X" networkId="testnet">
+    <OrderlyConfigProvider brokerId="FLASH_X" networkId="mainnet">
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
       </QueryClientProvider>
