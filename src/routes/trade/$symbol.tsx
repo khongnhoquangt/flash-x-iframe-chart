@@ -7,8 +7,6 @@ import {
 function TradePage() {
   const { symbol } = Route.useParams();
 
-  console.log("Trade page rendered with symbol:", symbol);
-
   const tradingViewProps = useTradingviewScript({
     scriptSRC: "/charting_library/charting_library.js",
     customCssUrl: "/charting_library/custom.css",
